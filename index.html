@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гандан хийд</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>ГАНДАН ХИЙД</h1>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul>
+                <li><a href="#">ТУХАЙ</a></li>
+                <li><a href="#">БАГШ НАР</a></li>
+                <li><a href="#">ҮЙЛ АЖИЛЛАГАА</a></li>
+                <li><a href="#">ХОЛБОО БАРИХ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>ШАРЫН ШАШИН</h2>
+            <button>ДЭЛГЭРЭНГҮЙ</button>
+        </div>
+    </section>
+
+    <section class="sections-container">
+        <div class="section-item">
+            <i class="fas fa-info-circle" style="font-size: 80px; color: #8B0000;"></i>
+            <h3>ТУХАЙ</h3>
+            <p>Гандантэгчэнлин хийдийн түүх, соёл, уламжлалын тухай.</p>
+            <button>ДЭЛГЭРЭНГҮЙ</button>
+        </div>
+        <div class="section-item">
+            <i class="fas fa-users" style="font-size: 80px; color: #8B0000;"></i>
+            <h3>БАГШ НАР</h3>
+            <p>Гандантэгчэнлин хийдийн багш нар болон тэдний үйл ажиллагаа</p>
+            <button>ДЭЛГЭРЭНГҮЙ</button>
+        </div>
+        <div class="section-item">
+            <i class="fas fa-calendar-alt" style="font-size: 80px; color: #8B0000;"></i>
+            <h3>ҮЙЛ АЖИЛЛАГАА</h3>
+            <p>Гандантэгчэнлин хийдийн өдөр тутмын үйл ажиллагаа</p>
+            <button>ДЭЛГЭРЭНГҮЙ</button>
+        </div>
+    </section>
+
+    <section class="history-section">
+        <div class="history-image">
+            <img src="images/0002.jpg" alt="Monk">
+        </div>
+        <div class="history-content">
+            <h2>ТҮҮХ</h2>
+            <p>Гандан тэгчэнлин хийд нь Монгол улсын хамгийн том бөгөөд чухал хийдүүдийн нэг юм. Энэхүү хийд нь 1800-аад оны үед байгуулагдсан бөгөөд Монголын буддын шашны түүхэнд чухал үүрэг гүйцэтгэсэн. Хийд нь олон зуун жилийн түүхтэй бөгөөд өнөөг хүртэл шашны болон соёлын төв хэвээр байна.</p>
+            <button>Бусад мэдээ</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Гандан хийд. Бүх эрх хуулиар хамгаалагдсан.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+</body>
+</html> 
